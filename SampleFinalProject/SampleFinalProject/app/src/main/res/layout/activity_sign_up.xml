@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_color">
+
+    <com.lombokcyberlab.android.multicolortextview.MultiColorTextView
+        android:id="@+id/sign_up_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        app:colors="@array/array_color"
+        app:text="@string/sign_up"
+        app:textSize="50"
+        app:textStyle="bold">
+    </com.lombokcyberlab.android.multicolortextview.MultiColorTextView>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:autofillHints="@string/username"
+        android:hint="@string/username"
+        android:background="@drawable/white_rounded_rectangle_border"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        android:visibility="visible"
+        android:singleLine="true"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/username_error_msg"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:autofillHints="@string/password"
+        android:hint="@string/password"
+        android:background="@drawable/white_rounded_rectangle_border"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        android:visibility="visible"
+        android:singleLine="true"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/password_error_msg"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/retype_password"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:autofillHints="@string/confirm_password"
+        android:hint="@string/confirm_password"
+        android:background="@drawable/white_rounded_rectangle_border"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        android:visibility="visible"
+        android:singleLine="true"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/retype_password_error_msg"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:autofillHints="@string/email"
+        android:hint="@string/email"
+        android:background="@drawable/white_rounded_rectangle_border"
+        android:inputType="textEmailAddress"
+        android:textSize="20sp"
+        android:visibility="visible"
+        android:singleLine="true"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/email_error_msg"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/in_game_name"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:autofillHints="@string/in_game_name"
+        android:hint="@string/in_game_name"
+        android:background="@drawable/white_rounded_rectangle_border"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        android:visibility="visible"
+        android:singleLine="true"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/in_game_error_msg"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/sign_up_button"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="@string/sign_up"
+        android:background="@drawable/white_rounded_rectangle_border"/>
+
+</LinearLayout>

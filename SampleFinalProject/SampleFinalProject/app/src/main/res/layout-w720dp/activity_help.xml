@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_color_midnight_city">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/gradient_color_midnight_city">
+
+        <TextView
+            android:id="@+id/setting_title_text"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/create_group_quiz"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/exit"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="-71dp"
+            android:layout_gravity="end"
+            android:gravity="center"
+            android:text="@string/exit_symbol"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="50sp"
+            android:background="@drawable/red_rectangle_background" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/help_msg"
+        android:layout_width="526dp"
+        android:layout_height="480dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/helpinfo"
+        android:textColor="@color/white"
+        android:textSize="27sp" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="149dp"
+        android:layout_height="77dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/back"
+        android:textSize="24sp" />
+</LinearLayout>

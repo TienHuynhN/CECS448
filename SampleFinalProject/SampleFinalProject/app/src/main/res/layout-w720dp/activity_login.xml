@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_color"
+    android:scrollbarAlwaysDrawVerticalTrack="false">
+
+    <com.lombokcyberlab.android.multicolortextview.MultiColorTextView
+        android:id="@+id/game_title"
+        android:layout_width="wrap_content"
+        android:layout_height="177dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="160dp"
+        app:colors="@array/array_color"
+        app:text="@string/game_title"
+        app:textSize="100"
+        app:textStyle="bold"></com.lombokcyberlab.android.multicolortextview.MultiColorTextView>
+
+    <EditText
+        android:id="@+id/username_edit"
+        android:layout_width="621dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="170dp"
+        android:background="@drawable/white_rounded_rectangle_border"
+        android:gravity="center"
+        android:hint="@string/username"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:textSize="35sp"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/password_edit"
+        android:layout_width="621dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/white_rounded_rectangle_border"
+        android:gravity="center"
+        android:hint="@string/password"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textSize="35sp"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="621dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/white_rounded_rectangle_border"
+        android:text="@string/login"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/sign_up_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="@string/sign_up_und"
+        android:textSize="35sp" />
+
+</LinearLayout>

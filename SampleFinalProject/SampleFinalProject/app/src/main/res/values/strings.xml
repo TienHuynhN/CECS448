@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">QuizBox</string>
+    <string name="game_title">Quiz Taker</string>
+    <string name="quiz_logo">Quiz Logo</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="login">Login</string>
+    <string name="sign_up_und"><u>Sign up</u></string>
+    <string name="sign_up">Sign up</string>
+    <string name="guest_player"><u>Continue as guest</u></string>
+    <string name="email">Email (optional)</string>
+    <string name="in_game_name">In-game name</string>
+    <string name="start_button">Start Quiz</string>
+    <string name="category">Category</string>
+    <string name="number_of_question">Number of questions</string>
+    <string name="round">Number of rounds</string>
+    <string name="setting">Settings</string>
+    <string name="change_button">Change In-game Name</string>
+    <string name="change_password">Change Password</string>
+    <string name="create_group_quiz">Create Group Quiz</string>
+    <string name="join_group_quiz">Join Group Quiz</string>
+    <string name="log_out">Logout</string>
+    <string name="back">Back</string>
+    <string name="add_question">Add Questions</string>
+    <string name="old_name">Old in-game name</string>
+    <string name="new_name">New in-game name</string>
+    <string name="check_image">Check image</string>
+    <string name="ok_msg">OK</string>
+    <string name="change_name">Change Name</string>
+    <string name="exit_symbol">X</string>
+    <string name="change">Change</string>
+    <string name="trophy">Trophy</string>
+    <string name="current_password">Current password</string>
+    <string name="new_password">New password</string>
+    <string name="question">Question</string>
+    <string name="answer_1">Answer 1</string>
+    <string name="answer_2">Answer 2</string>
+    <string name="answer_3">Answer 3</string>
+    <string name="answer_4">Answer 4</string>
+    <string name="correct_answer">Correct answer</string>
+    <string name="add">Add</string>
+    <string name="quit">Quit</string>
+    <string name="submit">Submit</string>
+    <string name="result">Result</string>
+    <string name="graph">Graph</string>
+    <string name="continues">Continue</string>
+    <string name="rank">Rank</string>
+    <string name="player">Player</string>
+    <string name="trophies">Trophies</string>
+    <string name="practice_quiz">Practice Quiz</string>
+    <string name="class_quiz">Class Quiz</string>
+    <string name="quiz_title">Quiz Title</string>
+    <string name="group_name">Group name</string>
+    <string name="group_id">Group ID</string>
+    <string name="helpinfo">"     "Welcome to the Quiz Taker App! This game has multiple categories such as
+        History, Astronomy, Biology, Computer Science, and Physics. You are able to pick which category
+        following the number of questions to answer. Each question only has one correct answer.
+        The score of each round will be displayed after each round. An account can be created to
+        keep a report card. Once an answer is submitted per question, the player cannot go back to
+        change any answers. </string>
+
+    <string-array name="array_color">
+        <item>#FFFDE7</item>
+        <item>#FFF9C4</item>
+        <item>#FFF59D</item>
+        <item>#FFF176</item>
+        <item>#FFEE58</item>
+        <item>#FFEB3B</item>
+        <item>#FDD835</item>
+        <item>#FBC02D</item>
+        <item>#F9A825</item>
+        <item>#F57F17</item>
+    </string-array>
+
+    <string-array name="category_items">
+        <item>Mathematics</item>
+        <item>Physics</item>
+        <item>Astronomy</item>
+        <item>History</item>
+        <item>Geography</item>
+        <item>Geology</item>
+        <item>Biology</item>
+        <item>Computer Science</item>
+        <item>Psychology</item>
+        <item>Philosophy</item>
+    </string-array>
+
+</resources>
+
